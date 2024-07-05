@@ -19,7 +19,6 @@ import java.util.ArrayList;
 @RequestMapping("/api/swagger-test")
 public class SwaggerTestApiController {
 
-
     @Operation(summary = "get 조회 api",
             description = "get api에 대한 테스트입니다.",
             parameters = {@Parameter(name = "param", description = "PathVariable")}
